@@ -5,7 +5,7 @@ public class JackAndJill {
         int[] arr = {};
         int output = playTheGame(arr);
         System.out.println("The output is " + output);
-        System.out.println("first it");
+        System.out.println("first its");
 
     }
 
