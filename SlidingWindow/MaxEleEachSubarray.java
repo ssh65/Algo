@@ -2,7 +2,7 @@ package SlidingWindow;
 
 import java.util.*;
 
-public class MaxSumSubarray {
+public class MaxEleEachSubarray {
     public static void main(String[] args) {
         int[] arr = { 1, 3, -1, -1, 5, 3, 6, 7 };
         int k = 3;

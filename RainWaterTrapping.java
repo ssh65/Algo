@@ -38,9 +38,9 @@ public class RainWaterTrapping {
         for (int j = 0; j < arr.length; j++)
             wot.add(j, Math.min(gel.get(j), ger.get(j)) - arr[j]);
 
-        for (int ele : wot) {
+        for (int ele : wot)
             sum += ele;
-        }
+
         System.out.println("");
         System.out.println("The sum is " + sum);
     }
