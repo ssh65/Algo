@@ -1,3 +1,4 @@
+//Least Number greater than other two numbers 
 package Cognizant;
 
 import java.util.*;

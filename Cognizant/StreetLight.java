@@ -1,3 +1,4 @@
+//Length of street covered with light
 package Cognizant;
 
 public class StreetLight {

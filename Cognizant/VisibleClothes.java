@@ -1,3 +1,4 @@
+//Count the visible clothes
 package Cognizant;
 
 public class VisibleClothes {

@@ -1,3 +1,4 @@
+//Number of buildings controlled
 package Cognizant;
 
 public class MissionAgentY {

@@ -1,10 +1,11 @@
+//Sum of marks of top k scoreres
 package Cognizant;
 
 import java.util.*;
 
 class GFG {
 
-    public static int FirstKelements(int arr[], int size, int k) {
+    public static int FirstKElements(int arr[], int size, int k) {
         int sum = 0;
 
         // Creating Min Heap for given
@@ -55,9 +56,7 @@ class GFG {
         // Size of Min Heap
         int k = 3;
 
-        int output = FirstKelements(arr, size, k);
+        int output = FirstKElements(arr, size, k);
         System.out.println("The output is " + output);
     }
 }
-
-// This code is contributed by Vansh Sethi

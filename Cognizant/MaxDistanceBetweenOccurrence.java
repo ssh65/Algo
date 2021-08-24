@@ -1,3 +1,4 @@
+//Maximum distance between occurrence of a character in an string
 package Cognizant;
 
 import java.util.ArrayList;
