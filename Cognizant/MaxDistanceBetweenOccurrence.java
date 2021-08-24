@@ -1,8 +1,8 @@
-package strings;
+package Cognizant;
 
 import java.util.ArrayList;
 
-public class cogni {
+public class MaxDistanceBetweenOccurrence {
     public static void main(String[] args) {
         String str = "Hey there My name is Siddharth";
         String check = "e";

@@ -1,3 +1,5 @@
+package Cognizant;
+
 public class MaximumMoney {
     public static void main(String[] args) {
         int[] arr = { 2, 8, -2, 28, 3 };

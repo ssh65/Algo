@@ -1,3 +1,5 @@
+package Cognizant;
+
 public class StreetLight {
     public static void main(String[] args) {
         int l = 2;

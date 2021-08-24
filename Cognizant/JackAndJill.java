@@ -1,3 +1,5 @@
+package Cognizant;
+
 import java.util.*;
 
 public class JackAndJill {

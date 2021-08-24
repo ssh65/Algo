@@ -1,3 +1,5 @@
+package Cognizant;
+
 public class MissionAgentY {
     public static void main(String[] args) {
         int n = 2;
