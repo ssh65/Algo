@@ -1,1 +1,1 @@
-"Easy to Difficult Problems on variety of topics which have been asked in various exams and platforms" 
+Moderate to Difficult level Problems on variety of topics which have been asked in various competitive exams. 
