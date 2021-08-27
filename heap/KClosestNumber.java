@@ -6,15 +6,6 @@ public class KClosestNumber {
     public static void main(String[] args) {
         int[] arr = { 5, 6, 7, 8, 9 };
         int k = 3;
-        // PriorityQueue<Pair<Integer, Integer>> pq = new PriorityQueue<Pair<Integer,
-        // Integer>>(k,
-        // new Comparator<Pair<Integer, Integer>>() {
-        // public int compare(Pair<Integer, Integer> p1, Pair<Integer, Integer> p2) {
-        // int a = p1.getElement0();
-        // int b = p2.getElement0();
-        // return b - a;
-        // }
-        // });
         PriorityQueue<Pair<Integer, Integer>> pq = new PriorityQueue<Pair<Integer, Integer>>(k, (p1, p2) -> {
             return p2.getElement0() - p1.getElement0(); // max heap
         });
@@ -43,7 +34,7 @@ class Pair<K, V> {
         return new Pair<K, V>(element0, element1);
     }
 
-    public Pair(K element0, V element1) {
+    public Pair(K element0, V element1) { // Constructor
         this.element0 = element0;
         this.element1 = element1;
     }
