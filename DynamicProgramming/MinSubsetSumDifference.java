@@ -8,7 +8,7 @@ public class MinSubsetSumDifference {
         int s = -1;
         boolean[][] t = new boolean[n + 1][sum + 1];
         SubsetSumProblem.knapsack(arr, sum, n, t);
-        for (int i = 0; i <= n; i++)
+        for (int i = 0; i <= sum/2; i++)
             if (t[n][i] == true)
                 s++;
         System.out.println("The value of s is " + s);
